@@ -1,0 +1,3223 @@
+{
+  "name": "Resource bottleneck",
+  "asset_id": "OPS-01",
+  "source": "Built-in simulation",
+  "synthetic": true,
+  "metrics": [
+    {
+      "name": "latency_ms",
+      "unit": "ms"
+    },
+    {
+      "name": "queue_depth",
+      "unit": "items"
+    },
+    {
+      "name": "error_rate",
+      "unit": "%"
+    },
+    {
+      "name": "temperature_c",
+      "unit": "\u00b0C"
+    }
+  ],
+  "readings": [
+    {
+      "id": "R0000",
+      "timestamp": "2026-10-08T08:00:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.85,
+        "queue_depth": 11.65,
+        "error_rate": 0.978,
+        "temperature_c": 45.7
+      }
+    },
+    {
+      "id": "R0001",
+      "timestamp": "2026-10-08T08:01:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.98,
+        "queue_depth": 9.01,
+        "error_rate": 1.066,
+        "temperature_c": 44.73
+      }
+    },
+    {
+      "id": "R0002",
+      "timestamp": "2026-10-08T08:02:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.26,
+        "queue_depth": 12.23,
+        "error_rate": 1.046,
+        "temperature_c": 46.16
+      }
+    },
+    {
+      "id": "R0003",
+      "timestamp": "2026-10-08T08:03:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 125.25,
+        "queue_depth": 12.22,
+        "error_rate": 0.852,
+        "temperature_c": 43.99
+      }
+    },
+    {
+      "id": "R0004",
+      "timestamp": "2026-10-08T08:04:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 121.97,
+        "queue_depth": 14.62,
+        "error_rate": 1.008,
+        "temperature_c": 44.89
+      }
+    },
+    {
+      "id": "R0005",
+      "timestamp": "2026-10-08T08:05:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 124.25,
+        "queue_depth": 9.09,
+        "error_rate": 0.938,
+        "temperature_c": 45.49
+      }
+    },
+    {
+      "id": "R0006",
+      "timestamp": "2026-10-08T08:06:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 126.99,
+        "queue_depth": 11.52,
+        "error_rate": 1.075,
+        "temperature_c": 45.25
+      }
+    },
+    {
+      "id": "R0007",
+      "timestamp": "2026-10-08T08:07:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 126.26,
+        "queue_depth": 9.77,
+        "error_rate": 1.114,
+        "temperature_c": 43.49
+      }
+    },
+    {
+      "id": "R0008",
+      "timestamp": "2026-10-08T08:08:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 99.04,
+        "queue_depth": 10.79,
+        "error_rate": 0.817,
+        "temperature_c": 45.88
+      }
+    },
+    {
+      "id": "R0009",
+      "timestamp": "2026-10-08T08:09:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 125.31,
+        "queue_depth": 9.56,
+        "error_rate": 1.169,
+        "temperature_c": 44.0
+      }
+    },
+    {
+      "id": "R0010",
+      "timestamp": "2026-10-08T08:10:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.31,
+        "queue_depth": 11.41,
+        "error_rate": 1.023,
+        "temperature_c": 45.82
+      }
+    },
+    {
+      "id": "R0011",
+      "timestamp": "2026-10-08T08:11:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 125.11,
+        "queue_depth": 12.7,
+        "error_rate": 1.13,
+        "temperature_c": 45.48
+      }
+    },
+    {
+      "id": "R0012",
+      "timestamp": "2026-10-08T08:12:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 114.98,
+        "queue_depth": 10.57,
+        "error_rate": 0.906,
+        "temperature_c": 45.5
+      }
+    },
+    {
+      "id": "R0013",
+      "timestamp": "2026-10-08T08:13:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.0,
+        "queue_depth": 16.67,
+        "error_rate": 0.836,
+        "temperature_c": 43.9
+      }
+    },
+    {
+      "id": "R0014",
+      "timestamp": "2026-10-08T08:14:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 126.15,
+        "queue_depth": 14.84,
+        "error_rate": 1.101,
+        "temperature_c": 45.84
+      }
+    },
+    {
+      "id": "R0015",
+      "timestamp": "2026-10-08T08:15:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 131.41,
+        "queue_depth": 11.81,
+        "error_rate": 0.715,
+        "temperature_c": 44.47
+      }
+    },
+    {
+      "id": "R0016",
+      "timestamp": "2026-10-08T08:16:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 127.62,
+        "queue_depth": 9.11,
+        "error_rate": 1.007,
+        "temperature_c": 45.25
+      }
+    },
+    {
+      "id": "R0017",
+      "timestamp": "2026-10-08T08:17:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 117.48,
+        "queue_depth": 13.45,
+        "error_rate": 1.116,
+        "temperature_c": 47.32
+      }
+    },
+    {
+      "id": "R0018",
+      "timestamp": "2026-10-08T08:18:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 124.96,
+        "queue_depth": 10.78,
+        "error_rate": 0.888,
+        "temperature_c": 44.17
+      }
+    },
+    {
+      "id": "R0019",
+      "timestamp": "2026-10-08T08:19:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 127.62,
+        "queue_depth": 10.87,
+        "error_rate": 0.986,
+        "temperature_c": 45.75
+      }
+    },
+    {
+      "id": "R0020",
+      "timestamp": "2026-10-08T08:20:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 114.21,
+        "queue_depth": 11.41,
+        "error_rate": 0.632,
+        "temperature_c": 43.92
+      }
+    },
+    {
+      "id": "R0021",
+      "timestamp": "2026-10-08T08:21:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 115.46,
+        "queue_depth": 12.83,
+        "error_rate": 1.239,
+        "temperature_c": 44.98
+      }
+    },
+    {
+      "id": "R0022",
+      "timestamp": "2026-10-08T08:22:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 122.09,
+        "queue_depth": 12.34,
+        "error_rate": 1.217,
+        "temperature_c": 45.89
+      }
+    },
+    {
+      "id": "R0023",
+      "timestamp": "2026-10-08T08:23:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 122.19,
+        "queue_depth": 9.98,
+        "error_rate": 1.181,
+        "temperature_c": 45.38
+      }
+    },
+    {
+      "id": "R0024",
+      "timestamp": "2026-10-08T08:24:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 129.82,
+        "queue_depth": 11.94,
+        "error_rate": 1.391,
+        "temperature_c": 44.64
+      }
+    },
+    {
+      "id": "R0025",
+      "timestamp": "2026-10-08T08:25:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 132.74,
+        "queue_depth": 12.23,
+        "error_rate": 0.897,
+        "temperature_c": 43.87
+      }
+    },
+    {
+      "id": "R0026",
+      "timestamp": "2026-10-08T08:26:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.79,
+        "queue_depth": 14.85,
+        "error_rate": 1.163,
+        "temperature_c": 45.69
+      }
+    },
+    {
+      "id": "R0027",
+      "timestamp": "2026-10-08T08:27:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 100.99,
+        "queue_depth": 13.42,
+        "error_rate": 1.111,
+        "temperature_c": 44.45
+      }
+    },
+    {
+      "id": "R0028",
+      "timestamp": "2026-10-08T08:28:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 114.98,
+        "queue_depth": 12.0,
+        "error_rate": 1.345,
+        "temperature_c": 43.94
+      }
+    },
+    {
+      "id": "R0029",
+      "timestamp": "2026-10-08T08:29:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 116.58,
+        "queue_depth": 14.72,
+        "error_rate": 0.911,
+        "temperature_c": 44.64
+      }
+    },
+    {
+      "id": "R0030",
+      "timestamp": "2026-10-08T08:30:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 120.78,
+        "queue_depth": 9.52,
+        "error_rate": 1.044,
+        "temperature_c": 43.79
+      }
+    },
+    {
+      "id": "R0031",
+      "timestamp": "2026-10-08T08:31:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 127.08,
+        "queue_depth": 12.01,
+        "error_rate": 1.457,
+        "temperature_c": 45.28
+      }
+    },
+    {
+      "id": "R0032",
+      "timestamp": "2026-10-08T08:32:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 130.93,
+        "queue_depth": 9.39,
+        "error_rate": 0.976,
+        "temperature_c": 45.32
+      }
+    },
+    {
+      "id": "R0033",
+      "timestamp": "2026-10-08T08:33:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 133.97,
+        "queue_depth": 8.64,
+        "error_rate": 1.198,
+        "temperature_c": 45.59
+      }
+    },
+    {
+      "id": "R0034",
+      "timestamp": "2026-10-08T08:34:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 132.27,
+        "queue_depth": 13.42,
+        "error_rate": 1.01,
+        "temperature_c": 44.48
+      }
+    },
+    {
+      "id": "R0035",
+      "timestamp": "2026-10-08T08:35:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 110.01,
+        "queue_depth": 12.39,
+        "error_rate": 0.962,
+        "temperature_c": 47.02
+      }
+    },
+    {
+      "id": "R0036",
+      "timestamp": "2026-10-08T08:36:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 115.11,
+        "queue_depth": 12.64,
+        "error_rate": 0.686,
+        "temperature_c": 44.6
+      }
+    },
+    {
+      "id": "R0037",
+      "timestamp": "2026-10-08T08:37:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 122.09,
+        "queue_depth": 13.65,
+        "error_rate": 1.29,
+        "temperature_c": 44.96
+      }
+    },
+    {
+      "id": "R0038",
+      "timestamp": "2026-10-08T08:38:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 111.06,
+        "queue_depth": 12.92,
+        "error_rate": 1.103,
+        "temperature_c": 45.49
+      }
+    },
+    {
+      "id": "R0039",
+      "timestamp": "2026-10-08T08:39:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 114.4,
+        "queue_depth": 14.27,
+        "error_rate": 1.018,
+        "temperature_c": 45.7
+      }
+    },
+    {
+      "id": "R0040",
+      "timestamp": "2026-10-08T08:40:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 130.19,
+        "queue_depth": 13.22,
+        "error_rate": 1.057,
+        "temperature_c": 47.15
+      }
+    },
+    {
+      "id": "R0041",
+      "timestamp": "2026-10-08T08:41:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 121.95,
+        "queue_depth": 11.41,
+        "error_rate": 1.022,
+        "temperature_c": 46.48
+      }
+    },
+    {
+      "id": "R0042",
+      "timestamp": "2026-10-08T08:42:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 120.95,
+        "queue_depth": 13.04,
+        "error_rate": 1.239,
+        "temperature_c": 44.49
+      }
+    },
+    {
+      "id": "R0043",
+      "timestamp": "2026-10-08T08:43:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 106.19,
+        "queue_depth": 12.6,
+        "error_rate": 1.046,
+        "temperature_c": 44.39
+      }
+    },
+    {
+      "id": "R0044",
+      "timestamp": "2026-10-08T08:44:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 126.97,
+        "queue_depth": 13.22,
+        "error_rate": 0.801,
+        "temperature_c": 45.52
+      }
+    },
+    {
+      "id": "R0045",
+      "timestamp": "2026-10-08T08:45:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.43,
+        "queue_depth": 9.03,
+        "error_rate": 1.091,
+        "temperature_c": 44.95
+      }
+    },
+    {
+      "id": "R0046",
+      "timestamp": "2026-10-08T08:46:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 114.04,
+        "queue_depth": 13.05,
+        "error_rate": 1.098,
+        "temperature_c": 44.42
+      }
+    },
+    {
+      "id": "R0047",
+      "timestamp": "2026-10-08T08:47:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 123.2,
+        "queue_depth": 14.03,
+        "error_rate": 0.857,
+        "temperature_c": 45.38
+      }
+    },
+    {
+      "id": "R0048",
+      "timestamp": "2026-10-08T08:48:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 120.02,
+        "queue_depth": 16.53,
+        "error_rate": 0.628,
+        "temperature_c": 45.7
+      }
+    },
+    {
+      "id": "R0049",
+      "timestamp": "2026-10-08T08:49:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 117.55,
+        "queue_depth": 11.8,
+        "error_rate": 1.38,
+        "temperature_c": 44.99
+      }
+    },
+    {
+      "id": "R0050",
+      "timestamp": "2026-10-08T08:50:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 137.93,
+        "queue_depth": 11.12,
+        "error_rate": 1.07,
+        "temperature_c": 44.51
+      }
+    },
+    {
+      "id": "R0051",
+      "timestamp": "2026-10-08T08:51:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 114.47,
+        "queue_depth": 12.12,
+        "error_rate": 0.943,
+        "temperature_c": 45.2
+      }
+    },
+    {
+      "id": "R0052",
+      "timestamp": "2026-10-08T08:52:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 103.16,
+        "queue_depth": 16.0,
+        "error_rate": 0.967,
+        "temperature_c": 46.74
+      }
+    },
+    {
+      "id": "R0053",
+      "timestamp": "2026-10-08T08:53:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 111.94,
+        "queue_depth": 12.59,
+        "error_rate": 1.633,
+        "temperature_c": 44.13
+      }
+    },
+    {
+      "id": "R0054",
+      "timestamp": "2026-10-08T08:54:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 108.04,
+        "queue_depth": 10.91,
+        "error_rate": 1.094,
+        "temperature_c": 45.69
+      }
+    },
+    {
+      "id": "R0055",
+      "timestamp": "2026-10-08T08:55:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 130.32,
+        "queue_depth": 11.49,
+        "error_rate": 0.68,
+        "temperature_c": 44.56
+      }
+    },
+    {
+      "id": "R0056",
+      "timestamp": "2026-10-08T08:56:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 129.92,
+        "queue_depth": 12.93,
+        "error_rate": 0.609,
+        "temperature_c": 44.96
+      }
+    },
+    {
+      "id": "R0057",
+      "timestamp": "2026-10-08T08:57:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 131.19,
+        "queue_depth": 16.25,
+        "error_rate": 1.112,
+        "temperature_c": 45.31
+      }
+    },
+    {
+      "id": "R0058",
+      "timestamp": "2026-10-08T08:58:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 110.08,
+        "queue_depth": 10.31,
+        "error_rate": 1.009,
+        "temperature_c": 45.5
+      }
+    },
+    {
+      "id": "R0059",
+      "timestamp": "2026-10-08T08:59:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 124.64,
+        "queue_depth": 11.04,
+        "error_rate": 0.77,
+        "temperature_c": 44.22
+      }
+    },
+    {
+      "id": "R0060",
+      "timestamp": "2026-10-08T09:00:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 110.74,
+        "queue_depth": 13.29,
+        "error_rate": 0.538,
+        "temperature_c": 44.67
+      }
+    },
+    {
+      "id": "R0061",
+      "timestamp": "2026-10-08T09:01:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 123.6,
+        "queue_depth": 15.04,
+        "error_rate": 1.014,
+        "temperature_c": 46.0
+      }
+    },
+    {
+      "id": "R0062",
+      "timestamp": "2026-10-08T09:02:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 116.81,
+        "queue_depth": 10.51,
+        "error_rate": 0.865,
+        "temperature_c": 46.53
+      }
+    },
+    {
+      "id": "R0063",
+      "timestamp": "2026-10-08T09:03:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 127.95,
+        "queue_depth": 12.97,
+        "error_rate": 1.666,
+        "temperature_c": 44.97
+      }
+    },
+    {
+      "id": "R0064",
+      "timestamp": "2026-10-08T09:04:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 124.96,
+        "queue_depth": 12.62,
+        "error_rate": 0.956,
+        "temperature_c": 47.32
+      }
+    },
+    {
+      "id": "R0065",
+      "timestamp": "2026-10-08T09:05:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 132.05,
+        "queue_depth": 9.2,
+        "error_rate": 0.92,
+        "temperature_c": 45.43
+      }
+    },
+    {
+      "id": "R0066",
+      "timestamp": "2026-10-08T09:06:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 126.27,
+        "queue_depth": 9.3,
+        "error_rate": 0.549,
+        "temperature_c": 43.09
+      }
+    },
+    {
+      "id": "R0067",
+      "timestamp": "2026-10-08T09:07:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.43,
+        "queue_depth": 11.79,
+        "error_rate": 1.069,
+        "temperature_c": 44.23
+      }
+    },
+    {
+      "id": "R0068",
+      "timestamp": "2026-10-08T09:08:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 110.21,
+        "queue_depth": 7.95,
+        "error_rate": 1.066,
+        "temperature_c": 45.37
+      }
+    },
+    {
+      "id": "R0069",
+      "timestamp": "2026-10-08T09:09:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 127.94,
+        "queue_depth": 13.58,
+        "error_rate": 0.962,
+        "temperature_c": 46.35
+      }
+    },
+    {
+      "id": "R0070",
+      "timestamp": "2026-10-08T09:10:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.91,
+        "queue_depth": 10.68,
+        "error_rate": 0.896,
+        "temperature_c": 44.42
+      }
+    },
+    {
+      "id": "R0071",
+      "timestamp": "2026-10-08T09:11:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 102.67,
+        "queue_depth": 12.31,
+        "error_rate": 1.05,
+        "temperature_c": 44.64
+      }
+    },
+    {
+      "id": "R0072",
+      "timestamp": "2026-10-08T09:12:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 114.29,
+        "queue_depth": 12.74,
+        "error_rate": 1.343,
+        "temperature_c": 45.04
+      }
+    },
+    {
+      "id": "R0073",
+      "timestamp": "2026-10-08T09:13:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 115.94,
+        "queue_depth": 10.82,
+        "error_rate": 0.986,
+        "temperature_c": 43.74
+      }
+    },
+    {
+      "id": "R0074",
+      "timestamp": "2026-10-08T09:14:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.0,
+        "queue_depth": 12.12,
+        "error_rate": 1.369,
+        "temperature_c": 45.94
+      }
+    },
+    {
+      "id": "R0075",
+      "timestamp": "2026-10-08T09:15:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 128.27,
+        "queue_depth": 10.57,
+        "error_rate": 1.134,
+        "temperature_c": 43.86
+      }
+    },
+    {
+      "id": "R0076",
+      "timestamp": "2026-10-08T09:16:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 122.5,
+        "queue_depth": 12.84,
+        "error_rate": 0.847,
+        "temperature_c": 47.0
+      }
+    },
+    {
+      "id": "R0077",
+      "timestamp": "2026-10-08T09:17:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 124.54,
+        "queue_depth": 8.19,
+        "error_rate": 1.111,
+        "temperature_c": 44.59
+      }
+    },
+    {
+      "id": "R0078",
+      "timestamp": "2026-10-08T09:18:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 120.01,
+        "queue_depth": 12.93,
+        "error_rate": 1.078,
+        "temperature_c": 42.96
+      }
+    },
+    {
+      "id": "R0079",
+      "timestamp": "2026-10-08T09:19:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 110.73,
+        "queue_depth": 13.55,
+        "error_rate": 1.26,
+        "temperature_c": 46.9
+      }
+    },
+    {
+      "id": "R0080",
+      "timestamp": "2026-10-08T09:20:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 134.43,
+        "queue_depth": 7.89,
+        "error_rate": 1.154,
+        "temperature_c": 43.08
+      }
+    },
+    {
+      "id": "R0081",
+      "timestamp": "2026-10-08T09:21:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 132.91,
+        "queue_depth": 12.51,
+        "error_rate": 0.772,
+        "temperature_c": 47.01
+      }
+    },
+    {
+      "id": "R0082",
+      "timestamp": "2026-10-08T09:22:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 125.15,
+        "queue_depth": 8.22,
+        "error_rate": 1.059,
+        "temperature_c": 44.27
+      }
+    },
+    {
+      "id": "R0083",
+      "timestamp": "2026-10-08T09:23:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 120.89,
+        "queue_depth": 11.07,
+        "error_rate": 1.275,
+        "temperature_c": 43.58
+      }
+    },
+    {
+      "id": "R0084",
+      "timestamp": "2026-10-08T09:24:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 122.54,
+        "queue_depth": 15.63,
+        "error_rate": 0.835,
+        "temperature_c": 45.21
+      }
+    },
+    {
+      "id": "R0085",
+      "timestamp": "2026-10-08T09:25:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 121.62,
+        "queue_depth": 10.62,
+        "error_rate": 1.13,
+        "temperature_c": 45.1
+      }
+    },
+    {
+      "id": "R0086",
+      "timestamp": "2026-10-08T09:26:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 112.45,
+        "queue_depth": 15.52,
+        "error_rate": 1.158,
+        "temperature_c": 44.83
+      }
+    },
+    {
+      "id": "R0087",
+      "timestamp": "2026-10-08T09:27:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 114.91,
+        "queue_depth": 10.43,
+        "error_rate": 1.246,
+        "temperature_c": 44.85
+      }
+    },
+    {
+      "id": "R0088",
+      "timestamp": "2026-10-08T09:28:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 123.68,
+        "queue_depth": 11.63,
+        "error_rate": 1.123,
+        "temperature_c": 44.88
+      }
+    },
+    {
+      "id": "R0089",
+      "timestamp": "2026-10-08T09:29:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 126.11,
+        "queue_depth": 11.63,
+        "error_rate": 1.166,
+        "temperature_c": 45.67
+      }
+    },
+    {
+      "id": "R0090",
+      "timestamp": "2026-10-08T09:30:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.07,
+        "queue_depth": 10.28,
+        "error_rate": 0.812,
+        "temperature_c": 44.26
+      }
+    },
+    {
+      "id": "R0091",
+      "timestamp": "2026-10-08T09:31:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 112.12,
+        "queue_depth": 13.73,
+        "error_rate": 0.991,
+        "temperature_c": 46.57
+      }
+    },
+    {
+      "id": "R0092",
+      "timestamp": "2026-10-08T09:32:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 138.23,
+        "queue_depth": 12.05,
+        "error_rate": 0.69,
+        "temperature_c": 44.62
+      }
+    },
+    {
+      "id": "R0093",
+      "timestamp": "2026-10-08T09:33:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.4,
+        "queue_depth": 9.02,
+        "error_rate": 0.95,
+        "temperature_c": 45.29
+      }
+    },
+    {
+      "id": "R0094",
+      "timestamp": "2026-10-08T09:34:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 116.32,
+        "queue_depth": 10.46,
+        "error_rate": 0.848,
+        "temperature_c": 46.79
+      }
+    },
+    {
+      "id": "R0095",
+      "timestamp": "2026-10-08T09:35:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.72,
+        "queue_depth": 10.34,
+        "error_rate": 0.925,
+        "temperature_c": 45.95
+      }
+    },
+    {
+      "id": "R0096",
+      "timestamp": "2026-10-08T09:36:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 114.52,
+        "queue_depth": 12.96,
+        "error_rate": 1.146,
+        "temperature_c": 45.75
+      }
+    },
+    {
+      "id": "R0097",
+      "timestamp": "2026-10-08T09:37:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 131.2,
+        "queue_depth": 10.9,
+        "error_rate": 1.227,
+        "temperature_c": 44.21
+      }
+    },
+    {
+      "id": "R0098",
+      "timestamp": "2026-10-08T09:38:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 116.83,
+        "queue_depth": 14.39,
+        "error_rate": 1.164,
+        "temperature_c": 45.0
+      }
+    },
+    {
+      "id": "R0099",
+      "timestamp": "2026-10-08T09:39:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 110.47,
+        "queue_depth": 13.12,
+        "error_rate": 0.874,
+        "temperature_c": 44.08
+      }
+    },
+    {
+      "id": "R0100",
+      "timestamp": "2026-10-08T09:40:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 114.81,
+        "queue_depth": 12.49,
+        "error_rate": 0.576,
+        "temperature_c": 45.36
+      }
+    },
+    {
+      "id": "R0101",
+      "timestamp": "2026-10-08T09:41:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 121.39,
+        "queue_depth": 10.83,
+        "error_rate": 1.207,
+        "temperature_c": 45.61
+      }
+    },
+    {
+      "id": "R0102",
+      "timestamp": "2026-10-08T09:42:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 115.15,
+        "queue_depth": 10.66,
+        "error_rate": 1.139,
+        "temperature_c": 43.48
+      }
+    },
+    {
+      "id": "R0103",
+      "timestamp": "2026-10-08T09:43:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 117.34,
+        "queue_depth": 10.74,
+        "error_rate": 1.014,
+        "temperature_c": 45.21
+      }
+    },
+    {
+      "id": "R0104",
+      "timestamp": "2026-10-08T09:44:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 120.29,
+        "queue_depth": 14.27,
+        "error_rate": 1.046,
+        "temperature_c": 44.69
+      }
+    },
+    {
+      "id": "R0105",
+      "timestamp": "2026-10-08T09:45:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 110.31,
+        "queue_depth": 13.44,
+        "error_rate": 1.106,
+        "temperature_c": 46.45
+      }
+    },
+    {
+      "id": "R0106",
+      "timestamp": "2026-10-08T09:46:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 114.02,
+        "queue_depth": 12.05,
+        "error_rate": 0.988,
+        "temperature_c": 44.91
+      }
+    },
+    {
+      "id": "R0107",
+      "timestamp": "2026-10-08T09:47:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 120.08,
+        "queue_depth": 8.57,
+        "error_rate": 1.165,
+        "temperature_c": 45.65
+      }
+    },
+    {
+      "id": "R0108",
+      "timestamp": "2026-10-08T09:48:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 129.04,
+        "queue_depth": 16.5,
+        "error_rate": 0.936,
+        "temperature_c": 44.96
+      }
+    },
+    {
+      "id": "R0109",
+      "timestamp": "2026-10-08T09:49:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 120.08,
+        "queue_depth": 15.88,
+        "error_rate": 0.654,
+        "temperature_c": 45.49
+      }
+    },
+    {
+      "id": "R0110",
+      "timestamp": "2026-10-08T09:50:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 108.23,
+        "queue_depth": 6.84,
+        "error_rate": 0.596,
+        "temperature_c": 43.62
+      }
+    },
+    {
+      "id": "R0111",
+      "timestamp": "2026-10-08T09:51:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 128.55,
+        "queue_depth": 10.26,
+        "error_rate": 0.955,
+        "temperature_c": 43.84
+      }
+    },
+    {
+      "id": "R0112",
+      "timestamp": "2026-10-08T09:52:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 124.89,
+        "queue_depth": 9.8,
+        "error_rate": 1.264,
+        "temperature_c": 44.01
+      }
+    },
+    {
+      "id": "R0113",
+      "timestamp": "2026-10-08T09:53:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 113.88,
+        "queue_depth": 12.25,
+        "error_rate": 1.005,
+        "temperature_c": 46.42
+      }
+    },
+    {
+      "id": "R0114",
+      "timestamp": "2026-10-08T09:54:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 120.96,
+        "queue_depth": 9.58,
+        "error_rate": 0.888,
+        "temperature_c": 44.43
+      }
+    },
+    {
+      "id": "R0115",
+      "timestamp": "2026-10-08T09:55:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 125.8,
+        "queue_depth": 12.77,
+        "error_rate": 0.976,
+        "temperature_c": 45.87
+      }
+    },
+    {
+      "id": "R0116",
+      "timestamp": "2026-10-08T09:56:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 115.77,
+        "queue_depth": 11.73,
+        "error_rate": 1.036,
+        "temperature_c": 46.53
+      }
+    },
+    {
+      "id": "R0117",
+      "timestamp": "2026-10-08T09:57:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.21,
+        "queue_depth": 11.3,
+        "error_rate": 0.791,
+        "temperature_c": 45.69
+      }
+    },
+    {
+      "id": "R0118",
+      "timestamp": "2026-10-08T09:58:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 115.3,
+        "queue_depth": 12.69,
+        "error_rate": 0.62,
+        "temperature_c": 46.04
+      }
+    },
+    {
+      "id": "R0119",
+      "timestamp": "2026-10-08T09:59:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 109.34,
+        "queue_depth": 10.45,
+        "error_rate": 1.212,
+        "temperature_c": 43.67
+      }
+    },
+    {
+      "id": "R0120",
+      "timestamp": "2026-10-08T10:00:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.36,
+        "queue_depth": 12.15,
+        "error_rate": 0.8,
+        "temperature_c": 46.34
+      }
+    },
+    {
+      "id": "R0121",
+      "timestamp": "2026-10-08T10:01:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 131.99,
+        "queue_depth": 8.06,
+        "error_rate": 0.71,
+        "temperature_c": 45.81
+      }
+    },
+    {
+      "id": "R0122",
+      "timestamp": "2026-10-08T10:02:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 109.58,
+        "queue_depth": 11.22,
+        "error_rate": 1.026,
+        "temperature_c": 45.69
+      }
+    },
+    {
+      "id": "R0123",
+      "timestamp": "2026-10-08T10:03:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.21,
+        "queue_depth": 12.19,
+        "error_rate": 0.845,
+        "temperature_c": 46.29
+      }
+    },
+    {
+      "id": "R0124",
+      "timestamp": "2026-10-08T10:04:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 116.04,
+        "queue_depth": 12.68,
+        "error_rate": 0.898,
+        "temperature_c": 45.11
+      }
+    },
+    {
+      "id": "R0125",
+      "timestamp": "2026-10-08T10:05:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.65,
+        "queue_depth": 11.68,
+        "error_rate": 0.797,
+        "temperature_c": 45.8
+      }
+    },
+    {
+      "id": "R0126",
+      "timestamp": "2026-10-08T10:06:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 131.31,
+        "queue_depth": 12.49,
+        "error_rate": 1.146,
+        "temperature_c": 45.84
+      }
+    },
+    {
+      "id": "R0127",
+      "timestamp": "2026-10-08T10:07:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 127.42,
+        "queue_depth": 12.61,
+        "error_rate": 1.042,
+        "temperature_c": 45.86
+      }
+    },
+    {
+      "id": "R0128",
+      "timestamp": "2026-10-08T10:08:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 120.55,
+        "queue_depth": 10.05,
+        "error_rate": 1.005,
+        "temperature_c": 43.11
+      }
+    },
+    {
+      "id": "R0129",
+      "timestamp": "2026-10-08T10:09:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.95,
+        "queue_depth": 12.83,
+        "error_rate": 1.247,
+        "temperature_c": 45.15
+      }
+    },
+    {
+      "id": "R0130",
+      "timestamp": "2026-10-08T10:10:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 127.43,
+        "queue_depth": 12.0,
+        "error_rate": 0.795,
+        "temperature_c": 43.59
+      }
+    },
+    {
+      "id": "R0131",
+      "timestamp": "2026-10-08T10:11:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 112.24,
+        "queue_depth": 9.27,
+        "error_rate": 1.127,
+        "temperature_c": 44.79
+      }
+    },
+    {
+      "id": "R0132",
+      "timestamp": "2026-10-08T10:12:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 124.56,
+        "queue_depth": 12.15,
+        "error_rate": 1.209,
+        "temperature_c": 46.06
+      }
+    },
+    {
+      "id": "R0133",
+      "timestamp": "2026-10-08T10:13:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 114.84,
+        "queue_depth": 11.45,
+        "error_rate": 0.893,
+        "temperature_c": 43.38
+      }
+    },
+    {
+      "id": "R0134",
+      "timestamp": "2026-10-08T10:14:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 125.4,
+        "queue_depth": 14.38,
+        "error_rate": 0.999,
+        "temperature_c": 44.51
+      }
+    },
+    {
+      "id": "R0135",
+      "timestamp": "2026-10-08T10:15:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 128.73,
+        "queue_depth": 7.31,
+        "error_rate": 1.035,
+        "temperature_c": 45.14
+      }
+    },
+    {
+      "id": "R0136",
+      "timestamp": "2026-10-08T10:16:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 115.43,
+        "queue_depth": 14.78,
+        "error_rate": 1.194,
+        "temperature_c": 44.74
+      }
+    },
+    {
+      "id": "R0137",
+      "timestamp": "2026-10-08T10:17:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.31,
+        "queue_depth": 11.22,
+        "error_rate": 0.898,
+        "temperature_c": 43.69
+      }
+    },
+    {
+      "id": "R0138",
+      "timestamp": "2026-10-08T10:18:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 131.04,
+        "queue_depth": 14.06,
+        "error_rate": 1.16,
+        "temperature_c": 43.91
+      }
+    },
+    {
+      "id": "R0139",
+      "timestamp": "2026-10-08T10:19:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 136.65,
+        "queue_depth": 15.96,
+        "error_rate": 1.038,
+        "temperature_c": 44.1
+      }
+    },
+    {
+      "id": "R0140",
+      "timestamp": "2026-10-08T10:20:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 113.07,
+        "queue_depth": 12.84,
+        "error_rate": 0.817,
+        "temperature_c": 44.97
+      }
+    },
+    {
+      "id": "R0141",
+      "timestamp": "2026-10-08T10:21:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 128.71,
+        "queue_depth": 8.99,
+        "error_rate": 1.401,
+        "temperature_c": 46.57
+      }
+    },
+    {
+      "id": "R0142",
+      "timestamp": "2026-10-08T10:22:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 110.1,
+        "queue_depth": 9.17,
+        "error_rate": 0.943,
+        "temperature_c": 43.97
+      }
+    },
+    {
+      "id": "R0143",
+      "timestamp": "2026-10-08T10:23:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 117.89,
+        "queue_depth": 6.84,
+        "error_rate": 0.954,
+        "temperature_c": 46.8
+      }
+    },
+    {
+      "id": "R0144",
+      "timestamp": "2026-10-08T10:24:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 111.07,
+        "queue_depth": 11.45,
+        "error_rate": 0.702,
+        "temperature_c": 45.64
+      }
+    },
+    {
+      "id": "R0145",
+      "timestamp": "2026-10-08T10:25:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.2,
+        "queue_depth": 15.88,
+        "error_rate": 1.041,
+        "temperature_c": 44.63
+      }
+    },
+    {
+      "id": "R0146",
+      "timestamp": "2026-10-08T10:26:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 124.4,
+        "queue_depth": 10.99,
+        "error_rate": 0.732,
+        "temperature_c": 45.3
+      }
+    },
+    {
+      "id": "R0147",
+      "timestamp": "2026-10-08T10:27:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.6,
+        "queue_depth": 12.33,
+        "error_rate": 1.075,
+        "temperature_c": 44.49
+      }
+    },
+    {
+      "id": "R0148",
+      "timestamp": "2026-10-08T10:28:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 123.37,
+        "queue_depth": 15.48,
+        "error_rate": 0.778,
+        "temperature_c": 46.74
+      }
+    },
+    {
+      "id": "R0149",
+      "timestamp": "2026-10-08T10:29:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.06,
+        "queue_depth": 10.47,
+        "error_rate": 1.485,
+        "temperature_c": 45.16
+      }
+    },
+    {
+      "id": "R0150",
+      "timestamp": "2026-10-08T10:30:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 130.96,
+        "queue_depth": 13.64,
+        "error_rate": 0.664,
+        "temperature_c": 45.12
+      }
+    },
+    {
+      "id": "R0151",
+      "timestamp": "2026-10-08T10:31:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 115.8,
+        "queue_depth": 9.32,
+        "error_rate": 0.646,
+        "temperature_c": 45.1
+      }
+    },
+    {
+      "id": "R0152",
+      "timestamp": "2026-10-08T10:32:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 124.72,
+        "queue_depth": 12.78,
+        "error_rate": 0.939,
+        "temperature_c": 44.2
+      }
+    },
+    {
+      "id": "R0153",
+      "timestamp": "2026-10-08T10:33:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 112.11,
+        "queue_depth": 10.89,
+        "error_rate": 0.793,
+        "temperature_c": 44.8
+      }
+    },
+    {
+      "id": "R0154",
+      "timestamp": "2026-10-08T10:34:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.82,
+        "queue_depth": 10.21,
+        "error_rate": 0.954,
+        "temperature_c": 44.24
+      }
+    },
+    {
+      "id": "R0155",
+      "timestamp": "2026-10-08T10:35:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.96,
+        "queue_depth": 13.01,
+        "error_rate": 1.036,
+        "temperature_c": 45.47
+      }
+    },
+    {
+      "id": "R0156",
+      "timestamp": "2026-10-08T10:36:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 106.78,
+        "queue_depth": 11.24,
+        "error_rate": 1.055,
+        "temperature_c": 45.64
+      }
+    },
+    {
+      "id": "R0157",
+      "timestamp": "2026-10-08T10:37:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 107.22,
+        "queue_depth": 12.32,
+        "error_rate": 1.241,
+        "temperature_c": 44.82
+      }
+    },
+    {
+      "id": "R0158",
+      "timestamp": "2026-10-08T10:38:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.24,
+        "queue_depth": 12.9,
+        "error_rate": 1.049,
+        "temperature_c": 45.67
+      }
+    },
+    {
+      "id": "R0159",
+      "timestamp": "2026-10-08T10:39:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 120.58,
+        "queue_depth": 12.3,
+        "error_rate": 0.844,
+        "temperature_c": 44.83
+      }
+    },
+    {
+      "id": "R0160",
+      "timestamp": "2026-10-08T10:40:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 130.02,
+        "queue_depth": 11.59,
+        "error_rate": 0.966,
+        "temperature_c": 44.51
+      }
+    },
+    {
+      "id": "R0161",
+      "timestamp": "2026-10-08T10:41:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 126.3,
+        "queue_depth": 10.29,
+        "error_rate": 1.182,
+        "temperature_c": 44.06
+      }
+    },
+    {
+      "id": "R0162",
+      "timestamp": "2026-10-08T10:42:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 111.54,
+        "queue_depth": 12.41,
+        "error_rate": 1.026,
+        "temperature_c": 45.3
+      }
+    },
+    {
+      "id": "R0163",
+      "timestamp": "2026-10-08T10:43:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 128.5,
+        "queue_depth": 11.18,
+        "error_rate": 1.089,
+        "temperature_c": 44.09
+      }
+    },
+    {
+      "id": "R0164",
+      "timestamp": "2026-10-08T10:44:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 130.07,
+        "queue_depth": 13.26,
+        "error_rate": 1.107,
+        "temperature_c": 45.19
+      }
+    },
+    {
+      "id": "R0165",
+      "timestamp": "2026-10-08T10:45:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 113.72,
+        "queue_depth": 11.35,
+        "error_rate": 1.1,
+        "temperature_c": 44.98
+      }
+    },
+    {
+      "id": "R0166",
+      "timestamp": "2026-10-08T10:46:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 120.99,
+        "queue_depth": 9.28,
+        "error_rate": 1.036,
+        "temperature_c": 44.31
+      }
+    },
+    {
+      "id": "R0167",
+      "timestamp": "2026-10-08T10:47:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 111.33,
+        "queue_depth": 11.69,
+        "error_rate": 0.629,
+        "temperature_c": 45.7
+      }
+    },
+    {
+      "id": "R0168",
+      "timestamp": "2026-10-08T10:48:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 126.82,
+        "queue_depth": 11.89,
+        "error_rate": 0.801,
+        "temperature_c": 44.05
+      }
+    },
+    {
+      "id": "R0169",
+      "timestamp": "2026-10-08T10:49:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.79,
+        "queue_depth": 7.15,
+        "error_rate": 1.036,
+        "temperature_c": 45.66
+      }
+    },
+    {
+      "id": "R0170",
+      "timestamp": "2026-10-08T10:50:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 117.5,
+        "queue_depth": 11.01,
+        "error_rate": 1.036,
+        "temperature_c": 45.35
+      }
+    },
+    {
+      "id": "R0171",
+      "timestamp": "2026-10-08T10:51:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 128.75,
+        "queue_depth": 12.04,
+        "error_rate": 0.862,
+        "temperature_c": 44.54
+      }
+    },
+    {
+      "id": "R0172",
+      "timestamp": "2026-10-08T10:52:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 121.46,
+        "queue_depth": 15.11,
+        "error_rate": 0.936,
+        "temperature_c": 43.95
+      }
+    },
+    {
+      "id": "R0173",
+      "timestamp": "2026-10-08T10:53:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 113.04,
+        "queue_depth": 7.81,
+        "error_rate": 1.066,
+        "temperature_c": 43.64
+      }
+    },
+    {
+      "id": "R0174",
+      "timestamp": "2026-10-08T10:54:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 110.13,
+        "queue_depth": 8.05,
+        "error_rate": 0.776,
+        "temperature_c": 45.57
+      }
+    },
+    {
+      "id": "R0175",
+      "timestamp": "2026-10-08T10:55:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 109.51,
+        "queue_depth": 8.5,
+        "error_rate": 1.036,
+        "temperature_c": 44.66
+      }
+    },
+    {
+      "id": "R0176",
+      "timestamp": "2026-10-08T10:56:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 123.46,
+        "queue_depth": 13.48,
+        "error_rate": 0.998,
+        "temperature_c": 43.7
+      }
+    },
+    {
+      "id": "R0177",
+      "timestamp": "2026-10-08T10:57:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.01,
+        "queue_depth": 13.0,
+        "error_rate": 0.883,
+        "temperature_c": 43.56
+      }
+    },
+    {
+      "id": "R0178",
+      "timestamp": "2026-10-08T10:58:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 128.82,
+        "queue_depth": 11.17,
+        "error_rate": 0.918,
+        "temperature_c": 45.02
+      }
+    },
+    {
+      "id": "R0179",
+      "timestamp": "2026-10-08T10:59:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 128.24,
+        "queue_depth": 12.53,
+        "error_rate": 0.933,
+        "temperature_c": 45.68
+      }
+    },
+    {
+      "id": "R0180",
+      "timestamp": "2026-10-08T11:00:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 137.18,
+        "queue_depth": 14.78,
+        "error_rate": 1.135,
+        "temperature_c": 43.88
+      }
+    },
+    {
+      "id": "R0181",
+      "timestamp": "2026-10-08T11:01:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 150.02,
+        "queue_depth": 9.6,
+        "error_rate": 0.926,
+        "temperature_c": 44.3
+      }
+    },
+    {
+      "id": "R0182",
+      "timestamp": "2026-10-08T11:02:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 133.02,
+        "queue_depth": 12.84,
+        "error_rate": 0.715,
+        "temperature_c": 45.27
+      }
+    },
+    {
+      "id": "R0183",
+      "timestamp": "2026-10-08T11:03:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 124.38,
+        "queue_depth": 11.36,
+        "error_rate": 0.756,
+        "temperature_c": 44.27
+      }
+    },
+    {
+      "id": "R0184",
+      "timestamp": "2026-10-08T11:04:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 116.51,
+        "queue_depth": 12.05,
+        "error_rate": 0.896,
+        "temperature_c": 45.74
+      }
+    },
+    {
+      "id": "R0185",
+      "timestamp": "2026-10-08T11:05:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 112.4,
+        "queue_depth": 8.54,
+        "error_rate": 0.852,
+        "temperature_c": 46.35
+      }
+    },
+    {
+      "id": "R0186",
+      "timestamp": "2026-10-08T11:06:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 115.41,
+        "queue_depth": 16.68,
+        "error_rate": 1.098,
+        "temperature_c": 43.84
+      }
+    },
+    {
+      "id": "R0187",
+      "timestamp": "2026-10-08T11:07:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 113.33,
+        "queue_depth": 12.49,
+        "error_rate": 0.764,
+        "temperature_c": 47.37
+      }
+    },
+    {
+      "id": "R0188",
+      "timestamp": "2026-10-08T11:08:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 112.07,
+        "queue_depth": 13.36,
+        "error_rate": 1.292,
+        "temperature_c": 44.89
+      }
+    },
+    {
+      "id": "R0189",
+      "timestamp": "2026-10-08T11:09:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 112.03,
+        "queue_depth": 11.45,
+        "error_rate": 1.072,
+        "temperature_c": 45.88
+      }
+    },
+    {
+      "id": "R0190",
+      "timestamp": "2026-10-08T11:10:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 120.45,
+        "queue_depth": 9.2,
+        "error_rate": 1.008,
+        "temperature_c": 44.33
+      }
+    },
+    {
+      "id": "R0191",
+      "timestamp": "2026-10-08T11:11:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 102.53,
+        "queue_depth": 10.6,
+        "error_rate": 0.714,
+        "temperature_c": 45.59
+      }
+    },
+    {
+      "id": "R0192",
+      "timestamp": "2026-10-08T11:12:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 135.55,
+        "queue_depth": 15.72,
+        "error_rate": 0.885,
+        "temperature_c": 44.53
+      }
+    },
+    {
+      "id": "R0193",
+      "timestamp": "2026-10-08T11:13:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 125.51,
+        "queue_depth": 14.12,
+        "error_rate": 0.916,
+        "temperature_c": 44.86
+      }
+    },
+    {
+      "id": "R0194",
+      "timestamp": "2026-10-08T11:14:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 137.66,
+        "queue_depth": 11.79,
+        "error_rate": 0.903,
+        "temperature_c": 45.12
+      }
+    },
+    {
+      "id": "R0195",
+      "timestamp": "2026-10-08T11:15:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 124.64,
+        "queue_depth": 9.96,
+        "error_rate": 0.95,
+        "temperature_c": 43.83
+      }
+    },
+    {
+      "id": "R0196",
+      "timestamp": "2026-10-08T11:16:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 117.77,
+        "queue_depth": 15.75,
+        "error_rate": 1.148,
+        "temperature_c": 44.91
+      }
+    },
+    {
+      "id": "R0197",
+      "timestamp": "2026-10-08T11:17:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 112.54,
+        "queue_depth": 11.38,
+        "error_rate": 1.21,
+        "temperature_c": 44.44
+      }
+    },
+    {
+      "id": "R0198",
+      "timestamp": "2026-10-08T11:18:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 131.6,
+        "queue_depth": 9.25,
+        "error_rate": 0.942,
+        "temperature_c": 46.74
+      }
+    },
+    {
+      "id": "R0199",
+      "timestamp": "2026-10-08T11:19:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 103.94,
+        "queue_depth": 14.38,
+        "error_rate": 0.63,
+        "temperature_c": 44.91
+      }
+    },
+    {
+      "id": "R0200",
+      "timestamp": "2026-10-08T11:20:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.62,
+        "queue_depth": 13.65,
+        "error_rate": 0.369,
+        "temperature_c": 43.08
+      }
+    },
+    {
+      "id": "R0201",
+      "timestamp": "2026-10-08T11:21:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 115.47,
+        "queue_depth": 12.07,
+        "error_rate": 0.821,
+        "temperature_c": 44.78
+      }
+    },
+    {
+      "id": "R0202",
+      "timestamp": "2026-10-08T11:22:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 110.51,
+        "queue_depth": 11.2,
+        "error_rate": 0.831,
+        "temperature_c": 45.24
+      }
+    },
+    {
+      "id": "R0203",
+      "timestamp": "2026-10-08T11:23:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 124.65,
+        "queue_depth": 14.87,
+        "error_rate": 0.869,
+        "temperature_c": 44.68
+      }
+    },
+    {
+      "id": "R0204",
+      "timestamp": "2026-10-08T11:24:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 120.38,
+        "queue_depth": 11.41,
+        "error_rate": 0.99,
+        "temperature_c": 43.44
+      }
+    },
+    {
+      "id": "R0205",
+      "timestamp": "2026-10-08T11:25:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 122.97,
+        "queue_depth": 10.17,
+        "error_rate": 0.809,
+        "temperature_c": 43.41
+      }
+    },
+    {
+      "id": "R0206",
+      "timestamp": "2026-10-08T11:26:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 129.29,
+        "queue_depth": 11.72,
+        "error_rate": 1.23,
+        "temperature_c": 45.27
+      }
+    },
+    {
+      "id": "R0207",
+      "timestamp": "2026-10-08T11:27:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 106.37,
+        "queue_depth": 9.83,
+        "error_rate": 1.152,
+        "temperature_c": 44.23
+      }
+    },
+    {
+      "id": "R0208",
+      "timestamp": "2026-10-08T11:28:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 111.28,
+        "queue_depth": 11.64,
+        "error_rate": 0.965,
+        "temperature_c": 43.99
+      }
+    },
+    {
+      "id": "R0209",
+      "timestamp": "2026-10-08T11:29:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 117.39,
+        "queue_depth": 11.04,
+        "error_rate": 0.482,
+        "temperature_c": 45.5
+      }
+    },
+    {
+      "id": "R0210",
+      "timestamp": "2026-10-08T11:30:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 113.51,
+        "queue_depth": 14.61,
+        "error_rate": 0.77,
+        "temperature_c": 43.42
+      }
+    },
+    {
+      "id": "R0211",
+      "timestamp": "2026-10-08T11:31:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 129.5,
+        "queue_depth": 8.83,
+        "error_rate": 0.873,
+        "temperature_c": 45.6
+      }
+    },
+    {
+      "id": "R0212",
+      "timestamp": "2026-10-08T11:32:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 117.36,
+        "queue_depth": 8.69,
+        "error_rate": 1.038,
+        "temperature_c": 44.81
+      }
+    },
+    {
+      "id": "R0213",
+      "timestamp": "2026-10-08T11:33:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 130.27,
+        "queue_depth": 13.18,
+        "error_rate": 1.607,
+        "temperature_c": 43.35
+      }
+    },
+    {
+      "id": "R0214",
+      "timestamp": "2026-10-08T11:34:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.83,
+        "queue_depth": 9.87,
+        "error_rate": 1.231,
+        "temperature_c": 45.82
+      }
+    },
+    {
+      "id": "R0215",
+      "timestamp": "2026-10-08T11:35:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 126.03,
+        "queue_depth": 10.45,
+        "error_rate": 0.851,
+        "temperature_c": 42.97
+      }
+    },
+    {
+      "id": "R0216",
+      "timestamp": "2026-10-08T11:36:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 133.68,
+        "queue_depth": 13.02,
+        "error_rate": 0.948,
+        "temperature_c": 45.93
+      }
+    },
+    {
+      "id": "R0217",
+      "timestamp": "2026-10-08T11:37:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 126.01,
+        "queue_depth": 13.95,
+        "error_rate": 0.675,
+        "temperature_c": 44.29
+      }
+    },
+    {
+      "id": "R0218",
+      "timestamp": "2026-10-08T11:38:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 121.56,
+        "queue_depth": 12.71,
+        "error_rate": 1.191,
+        "temperature_c": 43.99
+      }
+    },
+    {
+      "id": "R0219",
+      "timestamp": "2026-10-08T11:39:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 121.02,
+        "queue_depth": 16.41,
+        "error_rate": 1.138,
+        "temperature_c": 45.87
+      }
+    },
+    {
+      "id": "R0220",
+      "timestamp": "2026-10-08T11:40:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.85,
+        "queue_depth": 13.54,
+        "error_rate": 1.361,
+        "temperature_c": 45.11
+      }
+    },
+    {
+      "id": "R0221",
+      "timestamp": "2026-10-08T11:41:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 129.79,
+        "queue_depth": 10.25,
+        "error_rate": 1.118,
+        "temperature_c": 45.9
+      }
+    },
+    {
+      "id": "R0222",
+      "timestamp": "2026-10-08T11:42:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 113.98,
+        "queue_depth": 14.2,
+        "error_rate": 0.865,
+        "temperature_c": 44.19
+      }
+    },
+    {
+      "id": "R0223",
+      "timestamp": "2026-10-08T11:43:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.99,
+        "queue_depth": 15.86,
+        "error_rate": 1.062,
+        "temperature_c": 45.94
+      }
+    },
+    {
+      "id": "R0224",
+      "timestamp": "2026-10-08T11:44:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 114.15,
+        "queue_depth": 12.15,
+        "error_rate": 0.765,
+        "temperature_c": 44.43
+      }
+    },
+    {
+      "id": "R0225",
+      "timestamp": "2026-10-08T11:45:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 126.69,
+        "queue_depth": 11.92,
+        "error_rate": 1.29,
+        "temperature_c": 44.8
+      }
+    },
+    {
+      "id": "R0226",
+      "timestamp": "2026-10-08T11:46:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 118.42,
+        "queue_depth": 14.55,
+        "error_rate": 0.87,
+        "temperature_c": 43.48
+      }
+    },
+    {
+      "id": "R0227",
+      "timestamp": "2026-10-08T11:47:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 130.41,
+        "queue_depth": 12.83,
+        "error_rate": 0.567,
+        "temperature_c": 45.04
+      }
+    },
+    {
+      "id": "R0228",
+      "timestamp": "2026-10-08T11:48:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 116.77,
+        "queue_depth": 15.49,
+        "error_rate": 0.854,
+        "temperature_c": 44.42
+      }
+    },
+    {
+      "id": "R0229",
+      "timestamp": "2026-10-08T11:49:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 112.72,
+        "queue_depth": 9.89,
+        "error_rate": 0.86,
+        "temperature_c": 43.56
+      }
+    },
+    {
+      "id": "R0230",
+      "timestamp": "2026-10-08T11:50:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 111.75,
+        "queue_depth": 8.79,
+        "error_rate": 0.701,
+        "temperature_c": 43.44
+      }
+    },
+    {
+      "id": "R0231",
+      "timestamp": "2026-10-08T11:51:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 115.83,
+        "queue_depth": 10.63,
+        "error_rate": 0.755,
+        "temperature_c": 45.48
+      }
+    },
+    {
+      "id": "R0232",
+      "timestamp": "2026-10-08T11:52:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 119.62,
+        "queue_depth": 11.14,
+        "error_rate": 0.907,
+        "temperature_c": 46.59
+      }
+    },
+    {
+      "id": "R0233",
+      "timestamp": "2026-10-08T11:53:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 121.92,
+        "queue_depth": 12.95,
+        "error_rate": 0.483,
+        "temperature_c": 44.35
+      }
+    },
+    {
+      "id": "R0234",
+      "timestamp": "2026-10-08T11:54:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 102.63,
+        "queue_depth": 11.15,
+        "error_rate": 1.075,
+        "temperature_c": 44.33
+      }
+    },
+    {
+      "id": "R0235",
+      "timestamp": "2026-10-08T11:55:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 124.15,
+        "queue_depth": 9.95,
+        "error_rate": 1.115,
+        "temperature_c": 43.45
+      }
+    },
+    {
+      "id": "R0236",
+      "timestamp": "2026-10-08T11:56:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 117.91,
+        "queue_depth": 12.84,
+        "error_rate": 1.107,
+        "temperature_c": 44.87
+      }
+    },
+    {
+      "id": "R0237",
+      "timestamp": "2026-10-08T11:57:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 135.52,
+        "queue_depth": 11.17,
+        "error_rate": 0.91,
+        "temperature_c": 42.24
+      }
+    },
+    {
+      "id": "R0238",
+      "timestamp": "2026-10-08T11:58:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 134.15,
+        "queue_depth": 11.26,
+        "error_rate": 0.765,
+        "temperature_c": 46.32
+      }
+    },
+    {
+      "id": "R0239",
+      "timestamp": "2026-10-08T11:59:00+00:00",
+      "period": "baseline",
+      "values": {
+        "latency_ms": 129.88,
+        "queue_depth": 12.22,
+        "error_rate": 0.713,
+        "temperature_c": 45.42
+      }
+    },
+    {
+      "id": "R0240",
+      "timestamp": "2026-10-08T12:00:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 464.18,
+        "queue_depth": 82.3,
+        "error_rate": 1.209,
+        "temperature_c": 42.87
+      }
+    },
+    {
+      "id": "R0241",
+      "timestamp": "2026-10-08T12:01:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 451.62,
+        "queue_depth": 81.78,
+        "error_rate": 0.588,
+        "temperature_c": 44.16
+      }
+    },
+    {
+      "id": "R0242",
+      "timestamp": "2026-10-08T12:02:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 488.6,
+        "queue_depth": 89.31,
+        "error_rate": 0.934,
+        "temperature_c": 45.97
+      }
+    },
+    {
+      "id": "R0243",
+      "timestamp": "2026-10-08T12:03:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 468.09,
+        "queue_depth": 84.14,
+        "error_rate": 1.342,
+        "temperature_c": 46.2
+      }
+    },
+    {
+      "id": "R0244",
+      "timestamp": "2026-10-08T12:04:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 449.3,
+        "queue_depth": 77.11,
+        "error_rate": 1.197,
+        "temperature_c": 44.65
+      }
+    },
+    {
+      "id": "R0245",
+      "timestamp": "2026-10-08T12:05:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 456.15,
+        "queue_depth": 79.61,
+        "error_rate": 0.796,
+        "temperature_c": 45.07
+      }
+    },
+    {
+      "id": "R0246",
+      "timestamp": "2026-10-08T12:06:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 480.86,
+        "queue_depth": 84.45,
+        "error_rate": 1.375,
+        "temperature_c": 44.4
+      }
+    },
+    {
+      "id": "R0247",
+      "timestamp": "2026-10-08T12:07:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 454.71,
+        "queue_depth": 82.37,
+        "error_rate": 0.873,
+        "temperature_c": 45.78
+      }
+    },
+    {
+      "id": "R0248",
+      "timestamp": "2026-10-08T12:08:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 445.74,
+        "queue_depth": 79.4,
+        "error_rate": 0.851,
+        "temperature_c": 43.78
+      }
+    },
+    {
+      "id": "R0249",
+      "timestamp": "2026-10-08T12:09:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 488.66,
+        "queue_depth": 83.56,
+        "error_rate": 1.181,
+        "temperature_c": 45.92
+      }
+    },
+    {
+      "id": "R0250",
+      "timestamp": "2026-10-08T12:10:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 482.23,
+        "queue_depth": 88.59,
+        "error_rate": 1.122,
+        "temperature_c": 44.35
+      }
+    },
+    {
+      "id": "R0251",
+      "timestamp": "2026-10-08T12:11:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 449.94,
+        "queue_depth": 83.1,
+        "error_rate": 1.065,
+        "temperature_c": 45.42
+      }
+    },
+    {
+      "id": "R0252",
+      "timestamp": "2026-10-08T12:12:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 451.68,
+        "queue_depth": 84.41,
+        "error_rate": 1.352,
+        "temperature_c": 45.16
+      }
+    },
+    {
+      "id": "R0253",
+      "timestamp": "2026-10-08T12:13:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 449.23,
+        "queue_depth": 74.32,
+        "error_rate": 0.987,
+        "temperature_c": 43.78
+      }
+    },
+    {
+      "id": "R0254",
+      "timestamp": "2026-10-08T12:14:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 457.01,
+        "queue_depth": 79.5,
+        "error_rate": 1.183,
+        "temperature_c": 45.75
+      }
+    },
+    {
+      "id": "R0255",
+      "timestamp": "2026-10-08T12:15:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 458.63,
+        "queue_depth": 79.6,
+        "error_rate": 0.781,
+        "temperature_c": 44.85
+      }
+    },
+    {
+      "id": "R0256",
+      "timestamp": "2026-10-08T12:16:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 458.24,
+        "queue_depth": 78.95,
+        "error_rate": 0.909,
+        "temperature_c": 43.93
+      }
+    },
+    {
+      "id": "R0257",
+      "timestamp": "2026-10-08T12:17:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 428.87,
+        "queue_depth": 75.32,
+        "error_rate": 1.147,
+        "temperature_c": 45.32
+      }
+    },
+    {
+      "id": "R0258",
+      "timestamp": "2026-10-08T12:18:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 440.99,
+        "queue_depth": 78.59,
+        "error_rate": 0.784,
+        "temperature_c": 44.79
+      }
+    },
+    {
+      "id": "R0259",
+      "timestamp": "2026-10-08T12:19:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 446.83,
+        "queue_depth": 76.58,
+        "error_rate": 0.8,
+        "temperature_c": 43.61
+      }
+    },
+    {
+      "id": "R0260",
+      "timestamp": "2026-10-08T12:20:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 440.35,
+        "queue_depth": 81.13,
+        "error_rate": 0.883,
+        "temperature_c": 45.93
+      }
+    },
+    {
+      "id": "R0261",
+      "timestamp": "2026-10-08T12:21:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 458.25,
+        "queue_depth": 79.13,
+        "error_rate": 0.919,
+        "temperature_c": 45.41
+      }
+    },
+    {
+      "id": "R0262",
+      "timestamp": "2026-10-08T12:22:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 462.06,
+        "queue_depth": 74.1,
+        "error_rate": 1.269,
+        "temperature_c": 45.93
+      }
+    },
+    {
+      "id": "R0263",
+      "timestamp": "2026-10-08T12:23:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 427.59,
+        "queue_depth": 85.89,
+        "error_rate": 0.951,
+        "temperature_c": 45.45
+      }
+    },
+    {
+      "id": "R0264",
+      "timestamp": "2026-10-08T12:24:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 431.21,
+        "queue_depth": 77.25,
+        "error_rate": 0.905,
+        "temperature_c": 42.41
+      }
+    },
+    {
+      "id": "R0265",
+      "timestamp": "2026-10-08T12:25:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 487.56,
+        "queue_depth": 86.07,
+        "error_rate": 0.921,
+        "temperature_c": 44.41
+      }
+    },
+    {
+      "id": "R0266",
+      "timestamp": "2026-10-08T12:26:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 488.13,
+        "queue_depth": 68.8,
+        "error_rate": 0.676,
+        "temperature_c": 44.19
+      }
+    },
+    {
+      "id": "R0267",
+      "timestamp": "2026-10-08T12:27:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 492.43,
+        "queue_depth": 75.95,
+        "error_rate": 0.971,
+        "temperature_c": 44.82
+      }
+    },
+    {
+      "id": "R0268",
+      "timestamp": "2026-10-08T12:28:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 448.52,
+        "queue_depth": 80.47,
+        "error_rate": 0.95,
+        "temperature_c": 44.18
+      }
+    },
+    {
+      "id": "R0269",
+      "timestamp": "2026-10-08T12:29:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 445.82,
+        "queue_depth": 79.07,
+        "error_rate": 0.91,
+        "temperature_c": 45.32
+      }
+    },
+    {
+      "id": "R0270",
+      "timestamp": "2026-10-08T12:30:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 422.62,
+        "queue_depth": 85.83,
+        "error_rate": 0.84,
+        "temperature_c": 45.44
+      }
+    },
+    {
+      "id": "R0271",
+      "timestamp": "2026-10-08T12:31:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 469.05,
+        "queue_depth": 85.79,
+        "error_rate": 1.057,
+        "temperature_c": 45.17
+      }
+    },
+    {
+      "id": "R0272",
+      "timestamp": "2026-10-08T12:32:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 431.34,
+        "queue_depth": 81.42,
+        "error_rate": 0.879,
+        "temperature_c": 44.02
+      }
+    },
+    {
+      "id": "R0273",
+      "timestamp": "2026-10-08T12:33:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 437.46,
+        "queue_depth": 74.8,
+        "error_rate": 0.852,
+        "temperature_c": 45.35
+      }
+    },
+    {
+      "id": "R0274",
+      "timestamp": "2026-10-08T12:34:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 471.15,
+        "queue_depth": 80.2,
+        "error_rate": 0.786,
+        "temperature_c": 45.83
+      }
+    },
+    {
+      "id": "R0275",
+      "timestamp": "2026-10-08T12:35:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 491.4,
+        "queue_depth": 80.4,
+        "error_rate": 0.994,
+        "temperature_c": 45.89
+      }
+    },
+    {
+      "id": "R0276",
+      "timestamp": "2026-10-08T12:36:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 472.65,
+        "queue_depth": 72.16,
+        "error_rate": 0.932,
+        "temperature_c": 43.87
+      }
+    },
+    {
+      "id": "R0277",
+      "timestamp": "2026-10-08T12:37:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 493.78,
+        "queue_depth": 75.27,
+        "error_rate": 1.038,
+        "temperature_c": 45.05
+      }
+    },
+    {
+      "id": "R0278",
+      "timestamp": "2026-10-08T12:38:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 453.85,
+        "queue_depth": 80.68,
+        "error_rate": 0.948,
+        "temperature_c": 43.99
+      }
+    },
+    {
+      "id": "R0279",
+      "timestamp": "2026-10-08T12:39:00+00:00",
+      "period": "current",
+      "values": {
+        "latency_ms": 459.4,
+        "queue_depth": 78.96,
+        "error_rate": 0.722,
+        "temperature_c": 43.72
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "E001",
+      "timestamp": "2026-10-08T12:05:00+00:00",
+      "asset_id": "OPS-01",
+      "reading_id": "R0245",
+      "category": "RESOURCE_PRESSURE",
+      "message": "Resource pressure observed by the existing monitoring system.",
+      "source": "Synthetic event log"
+    },
+    {
+      "id": "E002",
+      "timestamp": "2026-10-08T12:10:00+00:00",
+      "asset_id": "OPS-01",
+      "reading_id": "R0250",
+      "category": "QUEUE_BUILDUP",
+      "message": "Queue buildup observed by the existing monitoring system.",
+      "source": "Synthetic event log"
+    },
+    {
+      "id": "E003",
+      "timestamp": "2026-10-08T12:11:00+00:00",
+      "asset_id": "OPS-01",
+      "reading_id": "R0251",
+      "category": "DEPENDENCY_HEALTHY",
+      "message": "Dependency healthy observed by the existing monitoring system.",
+      "source": "Synthetic event log"
+    },
+    {
+      "id": "E004",
+      "timestamp": "2026-10-08T08:30:00+00:00",
+      "asset_id": "OPS-01",
+      "reading_id": "R0030",
+      "category": "UPSTREAM_ERROR",
+      "message": "Upstream error observed by the existing monitoring system.",
+      "source": "Synthetic event log"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "capacity",
+      "name": "Capacity or resource bottleneck",
+      "supports": [
+        "RESOURCE_PRESSURE",
+        "QUEUE_BUILDUP"
+      ],
+      "contradicts": [
+        "RESOURCE_HEALTHY"
+      ],
+      "metrics": [
+        "latency_ms",
+        "queue_depth",
+        "cpu_pct"
+      ],
+      "next_check": "Inspect resource utilization and queue ownership during the affected interval."
+    },
+    {
+      "id": "dependency",
+      "name": "Upstream dependency degradation",
+      "supports": [
+        "DEPENDENCY_TIMEOUT",
+        "UPSTREAM_ERROR"
+      ],
+      "contradicts": [
+        "DEPENDENCY_HEALTHY"
+      ],
+      "metrics": [
+        "latency_ms",
+        "error_rate"
+      ],
+      "next_check": "Correlate upstream request IDs, provider status and downstream failures."
+    },
+    {
+      "id": "change",
+      "name": "Configuration or operating-mode change",
+      "supports": [
+        "CONFIG_CHANGED",
+        "DEPLOYMENT"
+      ],
+      "contradicts": [
+        "CONFIG_UNCHANGED"
+      ],
+      "metrics": [],
+      "next_check": "Compare configuration and operating mode before and after the change."
+    },
+    {
+      "id": "hardware",
+      "name": "Physical subsystem issue",
+      "supports": [
+        "DEVICE_FAULT",
+        "POWER_ALARM",
+        "THERMAL_ALARM"
+      ],
+      "contradicts": [
+        "DEVICE_SELFTEST_OK"
+      ],
+      "metrics": [
+        "temperature_c",
+        "voltage_v"
+      ],
+      "next_check": "Obtain device diagnostic codes or a qualified inspection; telemetry alone may not locate a damaged component."
+    },
+    {
+      "id": "data",
+      "name": "Measurement or data-quality issue",
+      "supports": [
+        "SENSOR_STALE",
+        "CLOCK_DRIFT",
+        "MEASUREMENT_FAULT"
+      ],
+      "contradicts": [
+        "MEASUREMENT_VERIFIED"
+      ],
+      "metrics": [],
+      "next_check": "Verify timestamps, units, collection health and the original measurement source."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "latency_ms": "ms",
+  "queue_depth": "items",
+  "error_rate": "%",
+  "temperature_c": "\u00b0C"
+}

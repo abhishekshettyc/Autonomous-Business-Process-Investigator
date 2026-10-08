@@ -1,0 +1,4 @@
+{"id": "E001", "timestamp": "2026-10-08T12:05:00+00:00", "asset_id": "OPS-01", "reading_id": "R0245", "category": "RESOURCE_PRESSURE", "message": "Resource pressure observed by the existing monitoring system.", "source": "Synthetic event log"}
+{"id": "E002", "timestamp": "2026-10-08T12:10:00+00:00", "asset_id": "OPS-01", "reading_id": "R0250", "category": "QUEUE_BUILDUP", "message": "Queue buildup observed by the existing monitoring system.", "source": "Synthetic event log"}
+{"id": "E003", "timestamp": "2026-10-08T12:11:00+00:00", "asset_id": "OPS-01", "reading_id": "R0251", "category": "DEPENDENCY_HEALTHY", "message": "Dependency healthy observed by the existing monitoring system.", "source": "Synthetic event log"}
+{"id": "E004", "timestamp": "2026-10-08T08:30:00+00:00", "asset_id": "OPS-01", "reading_id": "R0030", "category": "UPSTREAM_ERROR", "message": "Upstream error observed by the existing monitoring system.", "source": "Synthetic event log"}
